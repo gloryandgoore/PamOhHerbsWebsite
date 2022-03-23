@@ -125,8 +125,8 @@ const Product = () => {
   const location = useLocation();
   const id = location.pathname.split("/")[2];
   const [product, setProduct] =useState({});
-  const [quantity, setQuantity] =useState({});
-  const dispatch = useDispatch()
+  const [quantity, setQuantity] =useState(1);
+  const dispatch = useDispatch();
 
   useEffect(() => {
     const getProduct = async () => {
