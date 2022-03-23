@@ -151,7 +151,7 @@ const handleClick = () => {
   //update cart
   dispatch(
 
-    addProduct({product, quantity})
+    addProduct({ ...product, quantity, })
 
   )
  
