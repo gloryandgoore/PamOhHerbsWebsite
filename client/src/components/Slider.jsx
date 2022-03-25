@@ -1,6 +1,6 @@
 import { ArrowLeftOutlined, ArrowRightOutlined } from "@material-ui/icons";
 import { useState } from "react";
-import styled from "styled-components";
+import styled, {keyframes} from "styled-components";
 import { sliderItems } from "../data";
 import { mobile } from "../responsive";
 
@@ -32,12 +32,24 @@ const Arrow = styled.div`
   z-index: 2;
 `;
 
+const wrapperAnimation = keyframes`
+0%{ transform:translateX(0px) }
+  33.333%{ transform:translateX(-100vw) }
+  66.666%{ transform:translateX(-200vw) }
+ 
+  100%{ transform:translateX(0vw) }
+`;
+
 const Wrapper = styled.div`
   height: 100%;
   display: flex;
   transition: all 1.5s ease;
   transform: translateX(${props=>props.slideIndex * -100}vw);
+  animation-name: ${wrapperAnimation};
+ animation-duration: 15s;
+ animation-iteration-count: infinite;
 `;
+
 
 const Slide = styled.div`
   width: 100vw;
@@ -120,5 +132,3 @@ const Slider = () => {
 };
 
 export default Slider;
-
-//stopped at 28.06
