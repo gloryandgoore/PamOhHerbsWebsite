@@ -1,14 +1,15 @@
 export const sliderItems = [
     {
       id: 1,
-      img: "images/Untitled design.png",
-      title: "Where organic health is born",
-      desc: "Live Green. Live Life.",
+      img: "images/teapot.JPG",
+      title: "Skincare and Hygenic Products",
+      desc: "",
       bg: "070e0d",
     },
     {
       id: 2,
-      img: "images/Cream and Dark Brown Organic Warm Beauty Retail Website.png",
+      // img: "images/Cream and Dark Brown Organic Warm Beauty Retail Website.png",
+      img: "images/tumeric.JPG",
       title: "Where organic health is born",
       desc: "Live Green. Live Life.",
       bg: "070e0d",
@@ -42,6 +43,7 @@ export const categories = [
       cat: "Subscriptions"
     },
   ];
+  
 
   export const popularProducts = [
     {

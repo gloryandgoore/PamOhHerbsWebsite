@@ -93,9 +93,11 @@ const Footer = () => {
       <Left>
         <Logo>Pam Oh Herbs</Logo>
         <Desc>
-          There are many variations of passages of Lorem Ipsum available, but
-          the majority have suffered alteration in some form, by injected
-          humour, or randomised words which don’t look even slightly believable.
+        At Pam Oh Herbs, we are all about improving quality of lives, growing awareness in communities we serve, and improving the efficiency of traditional herbal remedies with our organic medicinal teas and skincare products.
+
+We provide you the tools and knowledge in perfecting a healthier, more beautiful you while protecting our planet resources.
+
+While gentle on the environment, Pam Oh Herbs organic ingredients can be easily sourced back to their ethical and natural origins. That is our promise to you.
         </Desc>
         <SocialContainer>
           <SocialIcon color="3B5999">
